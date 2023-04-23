@@ -1,5 +1,6 @@
-﻿using Harmony;
+﻿using HarmonyLib;
 using UnityEngine;
+using Il2Cpp;
 
 namespace FreeLookInCars
 {

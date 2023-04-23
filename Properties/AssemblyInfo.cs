@@ -14,5 +14,12 @@ using System.Runtime.InteropServices;
 [assembly: Guid("bc320585-8c10-4ece-99a4-1c57d170e828")]
 [assembly: AssemblyVersion("4.0.0.0")]
 [assembly: AssemblyFileVersion("4.0.0.0")]
-[assembly: MelonModInfo(typeof(FreeLookInCars.Implementation), "FreeLookInCars", "4.0.0", "WulfMarius, zeobviouslyfakeacc")]
-[assembly: MelonModGame("Hinterland", "TheLongDark")]
+[assembly: MelonInfo(typeof(FreeLookInCars.Implementation), BuildInfo.ModName, BuildInfo.ModVersion, BuildInfo.ModAuthor)]
+[assembly: MelonGame("Hinterland", "TheLongDark")]
+
+internal static class BuildInfo
+{
+    internal const string ModName = "FreeLookInCars";
+    internal const string ModAuthor = "zeobviouslyfakeacc";
+    internal const string ModVersion = "5.0.0";
+}
